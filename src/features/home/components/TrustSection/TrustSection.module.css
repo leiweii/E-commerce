@@ -1,0 +1,8 @@
+.section { padding-block: var(--section-space); background: var(--color-surface); }
+.grid { display: grid; gap: var(--space-8); grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.grid article { padding-top: var(--space-5); border-top: 1px solid var(--color-border); }
+.grid span { width: 3rem; height: 3rem; display: grid; place-items: center; margin-bottom: var(--space-4); border-radius: var(--radius-pill); color: var(--color-primary); background: var(--color-primary-soft); }
+.grid h3 { margin-bottom: var(--space-2); font-size: var(--font-size-lg); }
+.grid p { color: var(--color-text-muted); font-size: var(--font-size-sm); }
+@media (max-width: 63.99rem) { .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 29.99rem) { .grid { grid-template-columns: 1fr; gap: var(--space-6); } }

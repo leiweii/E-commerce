@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.superpowers/
+.agents/
+.codex/
+*.local
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/

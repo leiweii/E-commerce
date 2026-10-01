@@ -1,0 +1,24 @@
+.step h2 { font-size: var(--font-size-2xl); }
+.intro { margin-top: var(--space-2); color: var(--color-text-muted); }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-5); margin-top: var(--space-6); }
+.full { grid-column: 1 / -1; }
+.field { display: grid; gap: var(--space-2); }
+.field label, .legend { font-weight: 750; }
+.field input { width: 100%; min-height: var(--control-height); padding: 0 var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); }
+.field input:focus { border-color: var(--color-focus); outline: 2px solid var(--color-focus); outline-offset: 1px; }
+.field input[aria-invalid='true'] { border-color: var(--color-promotion-dark); background: var(--color-promotion-soft); }
+.error { color: var(--color-promotion-dark); font-size: var(--font-size-sm); }
+.options { display: grid; gap: var(--space-3); margin-top: var(--space-6); }
+.option { position: relative; display: grid; grid-template-columns: auto 1fr auto; align-items: start; gap: var(--space-3); padding: var(--space-4); border: 1px solid var(--color-border); border-radius: var(--radius-md); cursor: pointer; }
+.option:has(input:checked) { border-color: var(--color-primary); background: var(--color-surface-green); }
+.option input { margin-top: .25rem; accent-color: var(--color-primary); }
+.option span { display: grid; gap: var(--space-1); }
+.option small { color: var(--color-text-muted); }
+.notice { margin-top: var(--space-5); padding: var(--space-4); border: 1px solid var(--color-border); border-radius: var(--radius-md); color: var(--color-text-muted); background: var(--color-surface-muted); }
+.reviewGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); margin-top: var(--space-6); }
+.reviewCard { padding: var(--space-5); border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); }
+.reviewCard header { display: flex; justify-content: space-between; gap: var(--space-3); }
+.reviewCard p { margin-top: var(--space-2); color: var(--color-text-muted); }
+.reviewCard button { min-height: var(--icon-control-size); color: var(--color-primary); font-weight: 750; }
+
+@media (max-width: 47.99rem) { .grid, .reviewGrid { grid-template-columns: 1fr; } .full { grid-column: auto; } .option { grid-template-columns: auto 1fr; } .option > strong { grid-column: 2; } }

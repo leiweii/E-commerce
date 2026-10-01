@@ -1,0 +1,22 @@
+.information { display: grid; gap: clamp(var(--space-8), 5vw, var(--space-12)); }
+.eyebrow { color: var(--color-primary); font-size: var(--font-size-xs); font-weight: 800; text-transform: uppercase; letter-spacing: .09em; }
+.information h2 { margin-top: var(--space-1); font-size: var(--font-size-2xl); letter-spacing: -.025em; }
+.description > p:last-child { max-width: 52rem; margin-top: var(--space-4); color: var(--color-text-muted); font-size: var(--font-size-lg); }
+.detailsGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-4); }
+.detailsGrid section { padding: var(--space-6); border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); }
+.detailsGrid h2 { margin-top: 0; font-size: var(--font-size-lg); }
+.detailsGrid p { margin-top: var(--space-3); color: var(--color-text-muted); }
+.nutrition { display: grid; grid-template-columns: minmax(12rem, .7fr) minmax(20rem, 1.3fr); gap: var(--space-8); align-items: start; }
+.tableWrap { overflow-x: auto; border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface); }
+.nutrition table { width: 100%; border-collapse: collapse; }
+.nutrition th, .nutrition td { padding: .7rem var(--space-4); border-bottom: 1px solid var(--color-border); text-align: left; }
+.nutrition tr:last-child th, .nutrition tr:last-child td { border-bottom: 0; }
+.nutrition th { font-weight: 600; }
+.nutrition td { text-align: right; color: var(--color-text-muted); white-space: nowrap; }
+.delivery { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-5); padding: var(--space-6); border: 1px solid color-mix(in srgb, var(--color-primary) 12%, var(--color-border)); border-radius: var(--radius-lg); background: var(--color-surface-green); }
+.delivery article { display: flex; gap: var(--space-3); }
+.delivery svg { flex: 0 0 auto; color: var(--color-primary); }
+.delivery h3 { font-size: var(--font-size-base); }
+.delivery p { margin-top: var(--space-1); color: var(--color-text-muted); font-size: var(--font-size-sm); }
+@media (max-width: 47.99rem) { .detailsGrid, .delivery { grid-template-columns: 1fr; } .nutrition { grid-template-columns: 1fr; gap: var(--space-5); } }
+@media (max-width: 29.99rem) { .description > p:last-child { font-size: var(--font-size-base); } .detailsGrid section, .delivery { padding: var(--space-5); } }

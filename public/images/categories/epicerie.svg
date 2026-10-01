@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Épicerie</title><rect width="600" height="450" fill="#f1eadb"/>
+  <ellipse cx="300" cy="370" rx="210" ry="30" fill="#533d2a" opacity=".1"/>
+  <rect x="105" y="128" width="142" height="232" rx="18" fill="#fff" stroke="#cba56d" stroke-width="8"/><path d="M116 210h120v105H116z" fill="#d99a46"/>
+  <rect x="280" y="95" width="130" height="265" rx="20" fill="#fff" stroke="#b4b99b" stroke-width="8"/><path d="M291 182h108v124H291z" fill="#64845a"/>
+  <path d="M464 145h50l26 215H438z" fill="#173f2a"/><path d="M468 95h42v60h-42z" fill="#d8b46a"/>
+  <circle cx="176" cy="261" r="30" fill="#fff3cf"/><path d="M327 214c14-31 38-38 59-30-10 29-27 39-59 30" fill="#edf3ea"/>
+</svg>

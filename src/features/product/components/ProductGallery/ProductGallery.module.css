@@ -1,0 +1,10 @@
+.gallery { min-width: 0; }
+.mainImage { overflow: hidden; border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface-muted); }
+.mainImage img { width: 100%; aspect-ratio: 1.08 / 1; object-fit: cover; }
+.mainImage img.detailImage { transform: scale(1.35); }
+.thumbnails { display: flex; gap: var(--space-3); margin-top: var(--space-4); overflow-x: auto; padding: 2px; }
+.thumbnails button { width: 5.5rem; min-height: var(--icon-control-size); flex: 0 0 auto; overflow: hidden; padding: 0; border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface); cursor: pointer; }
+.thumbnails button.active { border-color: var(--color-primary); outline: 2px solid var(--color-primary); outline-offset: 1px; }
+.thumbnails img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.thumbnails img.detailImage { transform: scale(1.35); }
+@media (max-width: 29.99rem) { .mainImage img { aspect-ratio: 4 / 3; } .thumbnails button { width: 4.75rem; } }

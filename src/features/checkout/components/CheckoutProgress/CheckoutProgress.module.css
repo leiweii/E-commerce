@@ -1,0 +1,8 @@
+.progress { margin: var(--space-8) 0; }
+.progress > p { color: var(--color-primary); font-size: var(--font-size-sm); font-weight: 800; }
+.progress ol { display: grid; grid-template-columns: repeat(5, 1fr); gap: var(--space-2); margin-top: var(--space-3); }
+.progress li { display: flex; align-items: center; gap: var(--space-2); padding-top: var(--space-3); border-top: 3px solid var(--color-border); color: var(--color-text-muted); font-size: var(--font-size-sm); }
+.progress li span { width: 1.75rem; height: 1.75rem; display: grid; place-items: center; flex: 0 0 auto; border-radius: var(--radius-pill); background: var(--color-surface-muted); }
+.progress .active { border-color: var(--color-primary); color: var(--color-primary); }
+.progress .active span { color: var(--color-white); background: var(--color-primary); }
+@media (max-width: 47.99rem) { .progress ol { display: flex; overflow-x: auto; padding-bottom: var(--space-2); } .progress li { min-width: 8rem; } }

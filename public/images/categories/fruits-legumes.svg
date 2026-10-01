@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Fruits et légumes</title><rect width="600" height="450" fill="#e7efe2"/>
+  <ellipse cx="300" cy="365" rx="205" ry="35" fill="#173f2a" opacity=".12"/>
+  <path d="M175 190c70-70 180-70 250 0l-32 166H207z" fill="#c99b64"/><path d="M215 202h170l-15 128H230z" fill="#af7b45"/>
+  <circle cx="245" cy="190" r="59" fill="#d95738"/><circle cx="340" cy="165" r="66" fill="#e8aa31"/><ellipse cx="392" cy="225" rx="58" ry="78" fill="#659052"/>
+  <path d="M244 130c7-24 19-37 43-44-1 25-14 42-43 44m98-28c20-29 48-40 76-29-17 26-40 38-76 29" fill="#28573b"/>
+</svg>

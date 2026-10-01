@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Produits asiatiques</title><rect width="600" height="450" fill="#f1e7dc"/>
+  <ellipse cx="300" cy="370" rx="200" ry="27" fill="#4a2d21" opacity=".12"/>
+  <path d="M138 229h324c-10 101-63 149-162 149S148 330 138 229z" fill="#173f2a"/>
+  <path d="M166 229h268" stroke="#d9b66f" stroke-width="10"/>
+  <path d="M191 223c25-70 80-89 112-21 35-70 94-55 115 21" fill="none" stroke="#e3b24f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M394 75L259 252M449 102L301 264" stroke="#8c4b2e" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="197" cy="191" r="13" fill="#d85d3b"/><circle cx="354" cy="178" r="13" fill="#6a9958"/>
+</svg>

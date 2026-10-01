@@ -1,0 +1,5 @@
+.grid { display: grid; align-items: stretch; gap: clamp(var(--space-4), 2vw, var(--space-6)); grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.threeColumns { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (min-width: 64rem) and (max-width: 74.99rem) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 63.99rem) { .grid, .threeColumns { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 29.99rem) { .grid, .threeColumns { grid-template-columns: 1fr; } }

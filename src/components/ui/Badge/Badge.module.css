@@ -1,0 +1,5 @@
+.badge { min-height: 1.55rem; display: inline-flex; align-items: center; padding: .2rem .5rem; border: 1px solid transparent; border-radius: var(--radius-sm); font-size: var(--font-size-xs); font-weight: 800; line-height: 1; letter-spacing: .02em; }
+.neutral { color: var(--color-text); background: var(--color-surface-muted); }
+.organic { border-color: color-mix(in srgb, var(--color-primary) 16%, transparent); color: var(--color-primary); background: var(--color-primary-soft); }
+.promotion { color: var(--color-white); background: var(--color-promotion); }
+.new { color: var(--color-primary); background: var(--color-surface-muted); }

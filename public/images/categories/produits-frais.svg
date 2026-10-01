@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Produits frais</title><rect width="600" height="450" fill="#eef1e8"/>
+  <ellipse cx="300" cy="370" rx="180" ry="28" fill="#173f2a" opacity=".1"/>
+  <path d="M250 105h100l24 54v184c0 22-18 40-40 40h-68c-22 0-40-18-40-40V159z" fill="#fff" stroke="#b7c9b8" stroke-width="8"/>
+  <path d="M250 107h100v56H250z" fill="#dce9de"/><path d="M228 215h144v88H228z" fill="#173f2a"/>
+  <circle cx="300" cy="259" r="27" fill="#fbfaf6"/><path d="M286 258c16-22 35-19 39-35 8 25-5 47-39 35" fill="#78a267"/>
+  <ellipse cx="166" cy="334" rx="55" ry="37" fill="#dcb477"/><ellipse cx="430" cy="337" rx="53" ry="36" fill="#e5c18a"/>
+</svg>

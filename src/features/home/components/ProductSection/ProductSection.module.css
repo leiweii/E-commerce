@@ -1,0 +1,4 @@
+.section { padding-block: var(--section-space); }
+.default { background: var(--color-background); }
+.muted { background: var(--color-surface-muted); }
+.green { background: var(--color-surface-green); }

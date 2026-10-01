@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Produits biologiques</title><rect width="600" height="450" fill="#e2ecdc"/>
+  <ellipse cx="300" cy="369" rx="190" ry="28" fill="#173f2a" opacity=".12"/>
+  <path d="M296 363c-17-105 5-195 73-267" fill="none" stroke="#315f3d" stroke-width="14" stroke-linecap="round"/>
+  <path d="M339 158c-80 0-126 37-135 103 74 10 125-26 135-103zm34 15c77 3 119 40 125 102-69 7-116-27-125-102z" fill="#6f9c5f"/>
+  <path d="M296 245c-72-3-111 28-119 84 65 9 108-22 119-84zm52-20c66 1 104 32 112 87-60 7-101-24-112-87z" fill="#91b27d"/>
+  <circle cx="171" cy="345" r="31" fill="#cda34d"/><circle cx="226" cy="348" r="25" fill="#dabb6c"/><circle cx="422" cy="347" r="35" fill="#c18c3b"/>
+</svg>

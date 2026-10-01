@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Boulangerie</title><rect width="600" height="450" fill="#f4e8d4"/>
+  <ellipse cx="300" cy="360" rx="210" ry="34" fill="#6d4a2c" opacity=".12"/>
+  <path d="M112 292c40-105 145-145 226-68 46 44 23 124-48 137-86 16-210 14-178-69z" fill="#b97535"/>
+  <path d="M154 245l58 41m15-80 52 46m5-35 37 35" fill="none" stroke="#f1c477" stroke-width="14" stroke-linecap="round"/>
+  <path d="M361 129c78 5 139 61 146 139-66 2-105-23-122-61-14 45-55 68-115 61 8-78 50-132 91-139z" fill="#dc9a3f"/>
+  <path d="M385 207c21-28 41-30 64-5" fill="none" stroke="#f7d89b" stroke-width="16" stroke-linecap="round"/>
+</svg>

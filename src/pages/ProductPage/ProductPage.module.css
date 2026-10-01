@@ -1,0 +1,16 @@
+.page { padding: var(--space-6) 0 var(--section-space); }
+.breadcrumb { display: flex; align-items: center; gap: var(--space-2); overflow: hidden; margin-bottom: var(--space-8); color: var(--color-text-muted); font-size: var(--font-size-sm); white-space: nowrap; }
+.breadcrumb a:hover { color: var(--color-primary); }
+.breadcrumb svg { width: 14px; flex: 0 0 auto; }
+.breadcrumb span { overflow: hidden; color: var(--color-text); text-overflow: ellipsis; }
+.productLayout { display: grid; grid-template-columns: minmax(0, 1.08fr) minmax(20rem, .92fr); align-items: start; gap: clamp(2rem, 5vw, 4.5rem); }
+.content { display: grid; gap: var(--space-16); margin-top: var(--section-space); padding-top: var(--space-12); border-top: 1px solid var(--color-border); }
+.similar { margin-top: var(--section-space); }
+.similar > div:first-child { margin-bottom: var(--space-8); }
+@media (max-width: 63.99rem) {
+  .page { padding-top: var(--space-4); }
+  .breadcrumb { margin-bottom: var(--space-5); }
+  .productLayout { grid-template-columns: 1fr; gap: var(--space-8); }
+  .content { margin-top: var(--space-12); padding-top: var(--space-10); }
+}
+@media (max-width: 29.99rem) { .content { gap: var(--space-12); margin-top: var(--space-10); padding-top: var(--space-8); } }

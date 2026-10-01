@@ -1,0 +1,5 @@
+.empty { display: grid; justify-items: center; gap: var(--space-3); padding: clamp(var(--space-10), 8vw, var(--space-16)) var(--space-6); border: 1px dashed var(--color-border-strong); border-radius: var(--radius-lg); text-align: center; background: var(--color-surface); }
+.empty svg { color: var(--color-primary); }
+.empty h2 { font-size: var(--font-size-2xl); }
+.empty p { max-width: 30rem; color: var(--color-text-muted); }
+.empty div { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-3); margin-top: var(--space-3); }

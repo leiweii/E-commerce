@@ -1,0 +1,5 @@
+.nav ul { display: flex; align-items: center; gap: clamp(var(--space-4), 2vw, 1.75rem); }
+.nav a { position: relative; min-height: var(--icon-control-size); display: inline-flex; align-items: center; padding-inline: var(--space-1); color: var(--color-text-muted); font-size: var(--font-size-sm); font-weight: 700; transition: color var(--transition-fast); }
+.nav a:hover, .nav .active { color: var(--color-primary); }
+.nav .active::after { position: absolute; right: var(--space-1); bottom: .35rem; left: var(--space-1); height: 2px; background: var(--color-primary); content: ''; }
+@media (max-width: 63.99rem) { .nav { display: none; } }

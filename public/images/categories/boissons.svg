@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title">
+  <title id="title">Boissons</title><rect width="600" height="450" fill="#e4efec"/>
+  <ellipse cx="300" cy="375" rx="170" ry="28" fill="#173f2a" opacity=".1"/>
+  <path d="M198 80h72v82c0 24-22 35-26 70v121c0 21-17 38-38 38h-35c-21 0-38-17-38-38V232c-4-35-26-46-26-70V80z" fill="#7aa382"/>
+  <path d="M127 248h116v92H127z" fill="#fff7dc"/><circle cx="185" cy="294" r="26" fill="#e8aa31"/>
+  <path d="M365 105h69v65c0 27 37 39 37 88v99c0 19-15 34-34 34h-75c-19 0-34-15-34-34v-99c0-49 37-61 37-88z" fill="#d99136"/>
+  <path d="M340 248h119v92H340z" fill="#fbfaf6"/><path d="M380 319c13-37 36-51 54-48-5 30-21 46-54 48" fill="#4d7c53"/>
+</svg>

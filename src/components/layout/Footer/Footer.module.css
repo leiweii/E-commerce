@@ -1,0 +1,11 @@
+.footer { margin-top: var(--section-space); padding: var(--space-16) 0 var(--space-6); color: #edf3ee; background: var(--color-primary); }
+.grid { display: grid; gap: clamp(var(--space-8), 5vw, var(--space-16)); grid-template-columns: minmax(0, 1.5fr) repeat(2, minmax(9rem, 1fr)); }
+.brand { margin-bottom: var(--space-4); font-size: var(--font-size-2xl); line-height: 1; letter-spacing: -.03em; }
+.copy { max-width: 28rem; color: #cad6cc; }
+.footer h2 { margin-bottom: var(--space-4); color: var(--color-white); font-size: var(--font-size-xs); letter-spacing: .09em; text-transform: uppercase; }
+.footer li + li { margin-top: var(--space-2); }
+.footer a { min-height: 2.25rem; display: inline-flex; align-items: center; color: #cad6cc; transition: color var(--transition-fast); }
+.footer a:hover { color: var(--color-white); text-decoration: underline; text-underline-offset: .25rem; }
+.bottom { display: flex; justify-content: space-between; gap: var(--space-4); margin-top: var(--space-12); padding-top: var(--space-5); border-top: 1px solid rgb(255 255 255 / .18); color: #b9c8bc; font-size: var(--font-size-sm); }
+@media (max-width: 47.99rem) { .footer { padding-top: var(--space-12); } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .grid > div:first-child { grid-column: 1 / -1; } .bottom { align-items: flex-start; flex-direction: column; margin-top: var(--space-8); } }
+@media (max-width: 29.99rem) { .grid { grid-template-columns: 1fr; } .grid > div:first-child { grid-column: auto; } }

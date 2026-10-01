@@ -1,0 +1,16 @@
+.section { padding-block: var(--section-space); background: var(--color-background); }
+.card { display: grid; align-items: center; gap: var(--space-6); padding: clamp(var(--space-6), 5vw, var(--space-10)); border: 1px solid var(--color-border); border-radius: var(--radius-lg); background: var(--color-surface-muted); grid-template-columns: auto minmax(0, .8fr) minmax(20rem, 1fr); }
+.icon { width: 4rem; height: 4rem; display: grid; place-items: center; border-radius: var(--radius-pill); color: var(--color-white); background: var(--color-primary); }
+.eyebrow { margin-bottom: var(--space-2); color: var(--color-primary-hover); font-size: var(--font-size-xs); font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.card h2 { font-size: var(--font-size-2xl); line-height: var(--line-height-heading); }
+.card p:not(.eyebrow) { color: var(--color-text-muted); }
+.form label { display: block; margin-bottom: var(--space-2); font-size: var(--font-size-sm); font-weight: 750; }
+.form > div { display: flex; }
+.form input { width: 100%; min-height: var(--control-height); padding: .75rem 1rem; border: 1px solid var(--color-border-strong); border-right: 0; border-radius: var(--radius-md) 0 0 var(--radius-md); background: var(--color-surface); }
+.form input:focus { position: relative; z-index: 1; border-color: var(--color-focus); outline: 2px solid var(--color-focus); outline-offset: 1px; }
+.form button { border-radius: 0 var(--radius-md) var(--radius-md) 0; white-space: nowrap; }
+.form small { display: block; margin-top: var(--space-2); color: var(--color-text-muted); }
+.form .error { color: var(--color-promotion-dark); }
+.form .feedback { margin-top: var(--space-2); color: var(--color-success); font-size: var(--font-size-sm); font-weight: 650; }
+@media (max-width: 63.99rem) { .card { grid-template-columns: auto 1fr; } .form { grid-column: 1 / -1; } }
+@media (max-width: 29.99rem) { .card { grid-template-columns: 1fr; } .form > div { flex-direction: column; gap: var(--space-2); } .form input, .form button { width: 100%; border: 1px solid var(--color-border-strong); border-radius: var(--radius-md); } }

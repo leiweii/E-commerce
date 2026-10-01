@@ -1,0 +1,7 @@
+.page { min-height: 62vh; display: grid; place-items: center; align-content: center; padding-block: var(--section-space); text-align: center; }
+.icon { width: 4rem; height: 4rem; display: grid; place-items: center; margin-bottom: var(--space-5); border-radius: var(--radius-pill); color: var(--color-primary); background: var(--color-primary-soft); }
+.code { color: var(--color-promotion); font-size: var(--font-size-xs); font-weight: 900; text-transform: uppercase; letter-spacing: .12em; }
+.page h1 { font-size: var(--font-size-4xl); line-height: var(--line-height-tight); }
+.copy { max-width: 34rem; margin-top: var(--space-4); color: var(--color-text-muted); font-size: var(--font-size-lg); }
+.actions { display: flex; justify-content: center; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-8); }
+@media (max-width: 29.99rem) { .page h1 { font-size: clamp(2.1rem, 10vw, 2.5rem); } .copy { font-size: var(--font-size-base); } .actions { width: 100%; } .actions a { width: 100%; } }

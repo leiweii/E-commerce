@@ -1,0 +1,13 @@
+.section { padding-block: var(--space-10); background: var(--color-background); }
+.banner { display: grid; align-items: center; gap: clamp(var(--space-5), 4vw, var(--space-8)); padding: clamp(var(--space-6), 5vw, var(--space-10)); border-radius: var(--radius-lg); color: var(--color-white); background: var(--color-primary); grid-template-columns: auto 1fr auto; }
+.icon { width: 4rem; height: 4rem; display: grid; place-items: center; border: 1px solid rgb(255 255 255 / .3); border-radius: var(--radius-pill); background: rgb(255 255 255 / .08); }
+.icon svg { width: 2rem; height: 2rem; }
+.eyebrow { margin-bottom: var(--space-2); color: #c5d4c8; font-size: var(--font-size-xs); font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+.banner h2 { font-size: var(--font-size-2xl); line-height: var(--line-height-heading); }
+.banner p:not(.eyebrow) { color: #d4ded6; }
+.facts { display: flex; flex-wrap: wrap; gap: var(--space-5); margin-top: var(--space-4); color: #d4ded6; font-size: var(--font-size-sm); }
+.facts span { display: flex; align-items: center; gap: var(--space-2); }
+.banner a { color: white; border-color: white; }
+.banner a:hover { color: var(--color-primary); background: white; }
+@media (max-width: 63.99rem) { .banner { grid-template-columns: auto 1fr; } .banner > a { grid-column: 2; justify-self: start; } }
+@media (max-width: 29.99rem) { .banner { grid-template-columns: 1fr; } .banner > a { width: 100%; grid-column: 1; } .facts { align-items: flex-start; flex-direction: column; gap: var(--space-3); } }
